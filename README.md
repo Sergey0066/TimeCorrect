@@ -37,5 +37,3 @@
 Связь со мной осуществляется через дискорд!
 > Discord: sergey0066
 ```
-
-$${\color{red}Есть \space \color{red}Вопросы? \space \color{red}Пишите \space \color{red}мне!}$$
