@@ -2,7 +2,7 @@
 
 Если на Windows время отстаёт/спешит на 1–3 минуты или после включения ПК время становится неверным, `TimeCorrect` принудительно синхронизирует системное время через службу Windows Time (`w32time`) и NTP (команды `w32tm`).
 
-## Запуск EXE
+## Запуск
 
 1) Скачай: [`TimeCorrect.exe`](https://github.com/Sergey0066/TimeCorrect/releases/download/TimeCorrect/TimeCorrect.exe)
 2) Запусти `TimeCorrect.exe` (если попросит права — **Запуск от имени администратора**)
