@@ -188,7 +188,7 @@ def main() -> int:
     ap.add_argument("--uninstall-autostart", action="store_true", help="remove autostart")
     args = ap.parse_args()
 
-    # Если скомпилировано как оконное приложение (без консоли), по умолчанию установлено значение quiet.
+    # Компиляция (без консоли), по умолчанию значение quiet true.
     if is_frozen():
         args.quiet = True
 
