@@ -1,5 +1,5 @@
 Удалить из автозагрузки приложений при запуске ПК.
-В CMD от имени администратора:
+В командной строке от имени администратора:
 
 reg delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v "TimeCorrect" /f
 schtasks /Delete /F /TN "TimeCorrect"
