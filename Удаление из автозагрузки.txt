@@ -1,11 +1,6 @@
-Удалить из “Автозагрузка приложений” (реестр Run)
-В CMD:
-reg delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v "TimeCorrect" /f
-
-Удалить из Планировщика
+Удалить из автозагрузки приложений при запуске ПК.
 В CMD от имени администратора:
-schtasks /Delete /F /TN "TimeCorrect"
 
-(Если копировался EXE в ProgramData) удалить файлы
-В CMD от имени администраатора:
+reg delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v "TimeCorrect" /f
+schtasks /Delete /F /TN "TimeCorrect"
 rmdir /s /q "%ProgramData%\TimeCorrect"
